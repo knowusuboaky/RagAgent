@@ -48,7 +48,7 @@ Let’s dive in!
 2. **Index a Document**
 
    ```python
-   rag_agent.index_document("https://arxiv.org/pdf/2407.12345.pdf")
+   rag_agent.index_document("https://proceedings.neurips.cc/paper_files/paper/2017/file/3f5ee243547dee91fbd053c1c4a845aa-Paper.pdf")
    ```
 
 3. **Ask Questions**

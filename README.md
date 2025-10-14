@@ -1,6 +1,6 @@
 # Automating Retrieval-Augmented Q&A with AI
 
-Learn how to build a **RAG powered assistant** that automatically retrieves, grounds, and answers user questions using **local PDFs**, **image embeddings**, and a **Phi 3 Vision LLM**, all running on **CPU** with an in memory **Chroma vector store**.
+Learn how to build a **RAG powered assistant** that automatically retrieves, grounds, and answers user questions using **local PDFs**, **image embeddings**, and a **Phi 3 Vision LLM**, all running on **GPU/CPU** with an in memory **Chroma vector store**.
 
 Let’s dive in!
 
@@ -28,7 +28,7 @@ Let’s dive in!
   * Safe fallback: *“I don’t know based on the provided information.”*
 
 * **No External Dependencies**
-  Works offline, with no API keys, GPUs, or web connectors required.
+  Works offline, with no API keys, GPUs (optional), or web connectors required.
   Everything runs locally using only the allowed libraries:
   `torch`, `chromadb`, `numpy`, `io`, `fitz`, `requests`, `PIL`, `transformers`.
 
@@ -79,7 +79,7 @@ Let’s dive in!
 
 ## Summary
 
-This notebook demonstrates a **minimal but complete Retrieval Augmented Generation (RAG)** setup from ingestion to reasoning using **only open source CPU friendly tools**.
+This notebook demonstrates a **minimal but complete Retrieval Augmented Generation (RAG)** setup from ingestion to reasoning using **only open source GPU/CPU friendly tools**.
 You will understand how every stage works: ingestion -> embedding -> retrieval -> grounded generation.
 
 ---

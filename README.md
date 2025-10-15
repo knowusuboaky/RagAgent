@@ -58,14 +58,6 @@ Let’s dive in!
    print(response["answer"])
    ```
 
-4. **Inspect Results**
-   View top retrieved snippets, similarity scores, and which document pages informed the answer:
-
-   ```python
-   for hit in response["hits"][:3]:
-       print(hit["score"], hit["metadata"], hit["document"][:150])
-   ```
-
 ---
 
 ## Optional Enhancements
